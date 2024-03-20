@@ -68,21 +68,23 @@ section#home img{
     height: 100%; /* Garante que a imagem preencha toda a altura do contêiner */
 }
 
-#apresentacao {
+section#apresentacao {
   padding: auto;
   background-color: #002606;
 }
 
-#apresentacao h2 {
+section#apresentacao h2 {
   color: #ffffff;
+  padding-bottom: 15px;
   margin-left: 200px;
+  font-size: 40px;
 
 }
-#apresentacao p { 
+section#apresentacao p { 
   color: #ffffff;
-  width: 50%;
+  width: 80%;
   margin-left: 200px;
-  text
+  font-size: 15px;
 
 }
 /* Estilo para a div wrapper que contém o texto e a imagem */
@@ -95,7 +97,7 @@ section#home img{
 /* Estilo para o texto */
 .text {
   
-  flex: 3; /* Ocupa o espaço disponível restante */
+  flex: 5; /* Ocupa o espaço disponível restante */
   
 }
 
@@ -108,6 +110,7 @@ section#home img{
 .image img {
   max-width: 100%; /* Para garantir que a imagem não ultrapasse o espaço disponível */
   height: auto; /* Para manter a proporção da imagem */
+  width: 70%;
 }
 
 section#sobre-curso{
