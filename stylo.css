@@ -113,22 +113,92 @@ section#apresentacao p {
   width: 70%;
 }
 
-section#sobre-curso{
-  background-color: #000000;
-  height: 300px;
+section#sobre-curso {
+  background: #000000;
+  max-width: auto;
+  margin:  auto;
+  padding: 20px;
+  text-align: center;
 }
 
-section#sobre-curso h1{
-  color: white;
-  text-align: center;
-  font-size: 2em;
+section#sobre-curso h1 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-size:40px ;
+}
+
+.topicos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 80%;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+section#sobre-curso p{
+
+  font-size: 18px;
+}
+
+.topicos .esquerda {
+  flex-basis: calc(60% - 10px);
+  margin-right: 10px;
+  text-align: left;
+}
+
+.topicos .direita {
+  flex-basis: calc(40% - 10px);
+  margin-left: 10px;
+  text-align: left;
+}
+
+.icon{
+  color: #027F00;
+  display: flex;
+margin-left: 130px; 
+transform: translateY(70px);
+
+}
+
+
+section#valores-horarios {
+  background-color: #002606;
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
 }
 
-section#sobre-curso p{
-  color: #ffffff;
+
+
+section#valores-horarios h2 {
   text-align: center;
-  margin-right: 30%;
-  
-  
+  margin-bottom: 30px;
+  color: #004908;
+}
+
+.card {
+  display: inline-block;
+  width: calc(50% - 10px);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: ;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card ul li {
+  margin-bottom: 10px;
 }
