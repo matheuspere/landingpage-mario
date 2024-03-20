@@ -1,6 +1,31 @@
+/* Color Theme Swatches in Hex */
+.Matrix-1-hex { color: #027F00; }
+.Matrix-2-hex { color: #37F500; }
+.Matrix-3-hex { color: #000000; }
+.Matrix-4-hex { color: #004908; }
+.Matrix-5-hex { color: #002606; }
+
+/* Color Theme Swatches in RGBA */
+.Matrix-1-rgba { color: rgba(2, 127, 0, 1); }
+.Matrix-2-rgba { color: rgba(55, 245, 0, 1); }
+.Matrix-3-rgba { color: rgba(0, 0, 0, 1); }
+.Matrix-4-rgba { color: rgba(0, 73, 8, 1); }
+.Matrix-5-rgba { color: rgba(0, 38, 6, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Matrix-1-hsla { color: hsla(119, 100, 24, 1); }
+.Matrix-2-hsla { color: hsla(106, 100, 48, 1); }
+.Matrix-3-hsla { color: hsla(0, 0, 0, 1); }
+.Matrix-4-hsla { color: hsla(126, 100, 14, 1); }
+.Matrix-5-hsla { color: hsla(129, 100, 7, 1); }
+
+
+
+
+
 body, ul {
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
 /* Estilo do menu */
@@ -28,4 +53,72 @@ a {
 
 a:hover {
   background-color: #027F00;
+}
+
+section#home {
+  width: 100%;
+    height: 80vh; /* Define a altura do contêiner igual à altura da janela do navegador */
+    overflow: hidden; /* Esconde qualquer conteúdo que estenda além da altura do contêiner */
+}
+
+section#home img{
+  width: 100%;
+    display: block;
+    object-fit: cover; /* Redimensiona a imagem para preencher o contêiner, cortando o excesso */
+    height: 100%; /* Garante que a imagem preencha toda a altura do contêiner */
+}
+
+section#apresentacao {
+  background-color: #002606;
+  height: 300px;
+  
+  
+}
+
+section#apresentacao h1{
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  padding: 20px;
+  
+  
+}
+section#apresentacao p{
+  color: #ffffff;
+  text-align: center;
+  margin-right: 30%;
+  
+  
+}
+section#apresentacao img{
+  width: 20%; /* Ou outra porcentagem desejada */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: auto;
+    margin-left: 70%;
+    position: absolute;
+    top: 100px; /* Ajuste conforme necessário */
+    left: 50px; /* Ajuste conforme necessário */
+    
+  
+  
+}
+
+section#sobre-curso{
+  background-color: #000000;
+  height: 300px;
+}
+
+section#sobre-curso h1{
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  padding: 20px;
+}
+
+section#sobre-curso p{
+  color: #ffffff;
+  text-align: center;
+  margin-right: 30%;
+  
+  
 }
