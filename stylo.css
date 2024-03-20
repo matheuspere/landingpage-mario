@@ -68,39 +68,46 @@ section#home img{
     height: 100%; /* Garante que a imagem preencha toda a altura do contêiner */
 }
 
-section#apresentacao {
+#apresentacao {
+  padding: auto;
   background-color: #002606;
-  height: 300px;
+}
+
+#apresentacao h2 {
+  color: #ffffff;
+  margin-left: 200px;
+
+}
+#apresentacao p { 
+  color: #ffffff;
+  width: 50%;
+  margin-left: 200px;
+  text
+
+}
+/* Estilo para a div wrapper que contém o texto e a imagem */
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Estilo para o texto */
+.text {
   
+  flex: 3; /* Ocupa o espaço disponível restante */
   
 }
 
-section#apresentacao h1{
-  color: white;
-  text-align: center;
-  font-size: 2em;
-  padding: 20px;
-  
-  
+/* Estilo para a imagem */
+.image {
+  flex: 2; /* Ocupa o espaço disponível restante */
 }
-section#apresentacao p{
-  color: #ffffff;
-  text-align: center;
-  margin-right: 30%;
-  
-  
-}
-section#apresentacao img{
-  width: 20%; /* Ou outra porcentagem desejada */
-    height: auto; /* Mantém a proporção da imagem */
-    margin-bottom: auto;
-    margin-left: 70%;
-    position: absolute;
-    top: 100px; /* Ajuste conforme necessário */
-    left: 50px; /* Ajuste conforme necessário */
-    
-  
-  
+
+/* Ajuste o tamanho da imagem conforme necessário */
+.image img {
+  max-width: 100%; /* Para garantir que a imagem não ultrapasse o espaço disponível */
+  height: auto; /* Para manter a proporção da imagem */
 }
 
 section#sobre-curso{
